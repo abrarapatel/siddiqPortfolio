@@ -225,6 +225,25 @@ nav {
   line-height: 2rem;
 }
 
+.service-poster {
+  display: flex;
+  justify-content: end;
+}
+
+.service-poster button {
+  background-color: var(--secondary);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: solid 1px var(--secondary);
+  font-size: 0.7rem;
+}
+
+.service-poster button:hover {
+  background-color: transparent;
+}
+
 #about {
   padding: 60px;
 }
@@ -265,6 +284,73 @@ nav {
 .contact-value {
   text-decoration: none;
   color: var(--secondary);
+}
+
+.service-card-share {
+  /* border-radius: 10px; */
+  overflow: hidden;
+  border: solid 3px var(--secondary);
+}
+
+.service-card-share svg {
+  vertical-align: text-bottom;
+}
+
+.share-contact-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.share-contact-detail {
+  padding: 3px 0;
+  display: flex;
+}
+
+.share-contact-icon {
+  margin-right: 20px;
+}
+
+.service-card-share {
+  margin-bottom: 10px;
+}
+
+.shareLinkCopyInput {
+  padding: 8px;
+  margin: 4px 0;
+  width: 100%;
+  border: solid 2px #b0b0b0;
+  background-color: #e0e0e0;
+  color: #2f2f2f;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+.shareFinalButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.shareFinalButtonContainer .div-button {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  text-align: center;
+  flex: 1;
+  padding: 5px;
+  font-size: 0.7rem;
+  background-color: transparent;
+  border: solid 2px var(--secondary);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shareFinalButtonContainer .div-button:hover {
+  background-color: var(--secondary);
+  color: #fff;
 }
 
 @media (min-width: 900px) {
