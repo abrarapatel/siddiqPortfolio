@@ -1,5 +1,5 @@
 
-fetch('./data.json')
+fetch('../data.json')
     .then(response => response.json())
     .then(data => {
         let servicesData = data.services;
@@ -40,23 +40,19 @@ fetch('./data.json')
         });
 
         document.getElementById("contactDetailsContainer").innerHTML = contactCode;
+
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const showService = urlParams.get('showService');
+
+        if (showService) {
+            var serviceCards = document.getElementsByClassName("service-card");
+
+            var htmlCode = serviceCards[showService - 1].innerHTML;
+
+            snap.spark({
+                htmlCode: htmlCode,
+            });
+        }
     }).catch(error => console.error('Error fetching data:', error));
 
-
-document.addEventListener('DOMContentLoaded', showService());
-
-function showService() {
-    const urlParams = new URLSearchParams(window.location.search);
-
-    const showService = urlParams.get('showService');
-
-    if (showService) {
-        var serviceCards = document.getElementsByClassName("service-card");
-
-        var htmlCode = serviceCards[showService - 1].innerHTML;
-
-        snap.spark({
-            htmlCode: htmlCode,
-        });
-    }
-}
