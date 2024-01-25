@@ -17,10 +17,6 @@
 </head>
 
 <body>
-
-<button onclick="exportDivAsJPG()">Export as JPG</button>
-
-    
     <header id="landing">
         <nav>
             <div class="nav-former">
@@ -54,11 +50,7 @@
 
         <div id="about">
             <div class="heading">About</div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, fuga! Et perspiciatis similique minus illo?
-                Quisquam hic cum, quaerat reiciendis mollitia distinctio laborum sapiente aspernatur, doloribus id alias
-                perspiciatis placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam at eveniet,
-                neque eius molestias est. Alias harum ratione voluptas autem. Nisi molestiae corrupti dignissimos
-                obcaecati itaque facere velit explicabo maxime quam sed hic voluptas, numquam a, odio iure aliquid vel!
+            <p id="aboutText">
             </p>
         </div>
 
@@ -71,17 +63,6 @@
     </main>
 
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-<script>
-  function exportDivAsJPG() {
-    html2canvas(document.getElementsByClassName('service-card')[0]).then(function(canvas) {
-      var imgData = canvas.toDataURL('image/jpeg');
-      var link = document.createElement('a');
-      link.href = imgData;
-      link.download = 'exportedDiv.jpg';
-      link.click();
-    });
-  }
-</script>
 
     <script src="./snap/snap-alert/snap-popup.js"></script>
 
