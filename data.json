@@ -1,50 +1,48 @@
 {
-    "services": [
-      {
-        "head": "MSME Certificate",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
-        "imageName": "msme-logo.webp"
-      },
-      {
-        "head": "Passport Form",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
-        "imageName": "Indian-Passport-1024x680.jpg"
-      },
-      {
-        "head": "Aadhar Card",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
-        "imageName": "aadhaarr.jpg"
-      },
-      {
-        "head": "Accounting",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
-        "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
-      },
-        {
-        "head": "Accounting",
-        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
-        "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
-        }
-    ],
-    "contact": [
-      {
-        "icon": "fa fa-phone",
-        "head": "Call Me",
-        "text": "+91 98989 89898",
-        "value": "tel:+919898989898"
-      },
-      {
-        "icon": "fa fa-envelope",
-        "head": "Email Me",
-        "text": "siddiqsufi@gmail.com",
-        "value":"mailto:siddiqsufi@gail.com"
-      },
-      {
-        "icon": "fab fa-whatsapp",
-        "head": "Chat With Me",
-        "text": "+91 98989 89898",
-        "value": "https://wa.me/+919499844439"
-      }
-    ]
-  }
-  
+  "services": [
+    {
+      "head": "MSME Certificate",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
+      "imageName": "msme-logo.webp"
+    },
+    {
+      "head": "Passport Form",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
+      "imageName": "Indian-Passport-1024x680.jpg"
+    },
+    {
+      "head": "Aadhar Card",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
+      "imageName": "aadhaarr.jpg"
+    },
+    {
+      "head": "Accounting",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    }
+  ],
+  "contact": [
+    {
+      "icon": "fa fa-phone",
+      "head": "Call Me",
+      "text": "+91 98989 89898",
+      "value": "tel:+919898989898",
+      "share": true
+    },
+    {
+      "icon": "fa fa-envelope",
+      "head": "Email Me",
+      "text": "siddiqsufi@gmail.com",
+      "value": "mailto:siddiqsufi@gail.com",
+      "share": true
+    },
+    {
+      "icon": "fab fa-whatsapp",
+      "head": "Chat With Me",
+      "text": "+91 98989 89898",
+      "value": "https://wa.me/+919499844439",
+      "share": false
+    }
+  ],
+  "aboutText": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, fuga! Et perspiciatis similique minus illo? Quisquam hic cum, quaerat reiciendis mollitia distinctio laborum sapiente aspernatur, doloribus id alias perspiciatis placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam at eveniet, neque eius molestias est. Alias harum ratione voluptas autem. Nisi molestiae corrupti dignissimos obcaecati itaque facere velit explicabo maxime quam sed hic voluptas, numquam a, odio iure aliquid vel!"
+}
