@@ -1,0 +1,172 @@
+:root {
+  --white: #fff;
+  --margin-1: 10px;
+  --margin-2: 20px;
+  --margin-3: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "montserrat_regular";
+  src: url("../../Fonts/Montserrat-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+.snap-top-margin-1 {
+  margin-top: var(--margin-1);
+}
+
+.snap-top-margin-2 {
+  margin-top: var(--margin-2);
+}
+
+.snap-top-margin-3 {
+  margin-top: var(--margin-3);
+}
+
+.snap-stop-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.snap-background {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000000000;
+  margin: 0;
+  display: none;
+  overflow-y: scroll;
+  align-items: center;
+  justify-content: center;
+}
+
+.snap-base {
+  z-index: 1000000001;
+  width: 450px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.047);
+  transition: 1s ease-in-out;
+  margin: 20px;
+}
+
+@keyframes aniSnapBase {
+  0% {
+    transform: translate(-50%, -50%) rotateY(90deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotateY(0) scaleX(130%);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateY(0);
+  }
+}
+
+.snap-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 900;
+  cursor: pointer;
+  user-select: none;
+  color: #000;
+}
+
+.snap-close:hover {
+  color: #808080;
+}
+
+.base-content-container {
+  padding: 25px;
+}
+
+.snap-icon {
+  height: 75px;
+  width: 75px;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.snap-header {
+  font-family: montserrat_regular;
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #000;
+}
+
+.snap-details {
+  font-family: montserrat_regular;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #000;
+}
+
+.snap-button {
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  font-family: montserrat_regular;
+  font-size: 0.9rem;
+  font-weight: 900;
+  border-radius: 3px;
+  color: #000;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+}
+
+.snap-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.snap-button:focus {
+  outline: solid 4px #b1b1b1;
+}
+
+.snap-button-black {
+  color: #fff;
+  background-color: #181818;
+  border: 1px solid #181818;
+}
+
+.snap-footer {
+  font-family: montserrat_regular;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 30px;
+  color: #808080;
+}
+
+.snap-footer a {
+  color: #808080;
+}
+
+.snap-footer a:hover {
+  color: #3a3a3a;
+}
+
+.snap-manual-html {
+  font-family: montserrat_regular;
+  font-size: 1em;
+  width: 100%;
+}
