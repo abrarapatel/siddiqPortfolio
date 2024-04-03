@@ -29,8 +29,8 @@
     {
       "icon": "fa fa-phone",
       "head": "Call Me",
-      "text": "+91 98989 89898",
-      "value": "tel:+919898989898",
+      "text": "+91 96645 30637",
+      "value": "tel:+919664530637",
       "share": true
     },
     {
@@ -43,8 +43,8 @@
     {
       "icon": "fab fa-whatsapp",
       "head": "Chat With Me",
-      "text": "+91 98989 89898",
-      "value": "https://wa.me/+919499844439",
+      "text": "+91 96645 30637",
+      "value": "https://wa.me/+919664530637",
       "share": false
     }
   ],
