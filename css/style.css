@@ -133,7 +133,7 @@ nav {
 .intro h1 {
   color: #fff;
   line-height: 3rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .intro h1 span {
@@ -361,7 +361,16 @@ nav {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
+  #landing {
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
+  .intro h1 {
+    font-size: 1.2rem;
+  }
+
   nav {
     flex-direction: column;
     padding: 10px;
@@ -448,6 +457,7 @@ nav {
 }
 
 @media (max-width: 600px) {
+
   .service-cards-container {
     grid-template-columns: 1fr;
   }
