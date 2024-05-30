@@ -1,6 +1,10 @@
 fetch('./data.json')
     .then(response => response.json())
     .then(data => {
+        let landingText = data.landingText;
+        
+        document.getElementById('landingText').innerHTML = landingText;
+
         let servicesData = data.services;
 
         let serviceCode = ``;
