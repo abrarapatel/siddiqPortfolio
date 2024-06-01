@@ -7,21 +7,17 @@
    },
     {
       "head": "Taxation Services",
-      "details": "Expert Indian Taxation Services - File income tax, GST & TDS returns with ease! Get tax planning, consulting, audit & assurance solutions to minimize liabilities & maximize refunds. Simplify your tax compliance with us!",
       "imageName": "taxation.jpg" },
     {
       "head": "Passport Form",
-      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
       "imageName": "Indian-Passport-1024x680.jpg"
     },
     {
       "head": "Aadhar Card",
-      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
       "imageName": "aadhaarr.jpg"
     },
     {
       "head": "Accounting",
-      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est cumque recusandae mollitia fugit quibusdam magni quasi necessitatibus natus ipsa excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quidem ut culpa quia quam, id, atque nihil vitae quasi eligendi aliquid harum veritatis illo consectetur sunt eum saepe quos pariatur.",
       "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
     }
   ],
@@ -36,8 +32,8 @@
     {
       "icon": "fa fa-envelope",
       "head": "Email Me",
-      "text": "siddiqsufi@gmail.com",
-      "value": "mailto:siddiqsufi@gail.com",
+      "text": "ssandco@gmail.com",
+      "value": "mailto:ssandco@gmail.com",
       "share": true
     },
     {
