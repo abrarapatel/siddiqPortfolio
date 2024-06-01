@@ -2,24 +2,57 @@
   "landingText": "Hello! I'm <span>Siddiq Sufi</span>, and I'm passionate about delivering value through professional <a href='#services'>services</a>. Welcome to <div>SIDDIQ SUFI & CO.</div>, your trusted tax cosultant partner. Our expert team provides personalized service and effective solution to optimize your tax position and achieve your financial goals. Learn more about our services and how we can can help you succeed.",
   "services": [
     {
-      "head": "Accounting & Auditing Services",
+      "head": "Accounting & Book Keeping Services (Including Share Market) ",
       "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
    },
     {
       "head": "Income-Tax Returns",
-      "imageName": "taxation.jpg" },
+      "imageName": "taxation.jpg" 
+    },
     {
       "head": "Goods & Services Tax(GST) Registration & Returns",
       "imageName": "Indian-Passport-1024x680.jpg"
     },
     {
-      "head": "Aadhar Card",
+      "head": "TDS Returns & Services",
       "imageName": "aadhaarr.jpg"
     },
     {
-      "head": "Accounting",
+      "head": "Auditing Services",
       "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
-    }
+    },
+    {
+      "head": "ROC Compliances - Company & LLP Registration",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "Trademark Registration",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "PAN Card Services (New/Update) ",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "MSME Certificate (Udhyog Aadhar) ",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "Digital Signature (DSC) ",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "AD Code Registration",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "Import-Export Certificate",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
+    {
+      "head": "Common Services",
+      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+    },
   ],
   "contact": [
     {
