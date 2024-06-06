@@ -12,23 +12,23 @@
     },
     {
       "head": "Goods & Services Tax(GST) Registration & Returns",
-      "imageName": "Indian-Passport-1024x680.jpg"
+      "imageName": "gst.jpg"
     },
     {
       "head": "TDS Returns & Services",
-      "imageName": "aadhaarr.jpg"
+      "imageName": "tds.jpg"
     },
     {
       "head": "Auditing Services",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "absm.jpg"
     },
     {
       "head": "ROC Compliances - Company & LLP Registration",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "roc.jpg"
     },
     {
       "head": "Trademark Registration",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "tm.jpg"
     },
     {
       "head": "PAN Card Services (New/Update) ",
@@ -36,7 +36,7 @@
     },
     {
       "head": "MSME Certificate (Udhyog Aadhar) ",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "pan.jpg"
     },
     {
       "head": "Digital Signature (DSC) ",
@@ -44,15 +44,15 @@
     },
     {
       "head": "AD Code Registration",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "adcode.jpg"
     },
     {
       "head": "Import-Export Certificate",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "iec.jpg"
     },
     {
       "head": "Common Services",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "cs.jpg"
     }
   ],
   "contact": [
