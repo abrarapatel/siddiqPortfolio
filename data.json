@@ -32,15 +32,15 @@
     },
     {
       "head": "PAN Card Services (New/Update) ",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
-    },
-    {
-      "head": "MSME Certificate (Udhyog Aadhar) ",
       "imageName": "pan.jpg"
     },
     {
+      "head": "MSME Certificate (Udhyog Aadhar) ",
+      "imageName": "msme-logo.webp"
+    },
+    {
       "head": "Digital Signature (DSC) ",
-      "imageName": "original-0524b42a29a7cd7a809a592c1dba971e.jpg"
+      "imageName": "dsc.jpg"
     },
     {
       "head": "AD Code Registration",
