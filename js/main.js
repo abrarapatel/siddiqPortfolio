@@ -1,8 +1,11 @@
 fetch('./data.json')
     .then(response => response.json())
     .then(data => {
+        let companyName = data.companyName;
         let landingText = data.landingText;
-        
+
+        landingText = landingText.replace("{[companyName]}", companyName);
+
         document.getElementById('landingText').innerHTML = landingText;
 
         let servicesData = data.services;
@@ -15,7 +18,7 @@ fetch('./data.json')
             index++;
             let imageSrc = element.imageName;
             let head = element.head;
-            let details = element.details;
+            let details = element.details ? element.details : "";
 
             serviceCode += `<div class="service-card">
                                 <div class="service-image"><img src="./Images/${imageSrc}"></div>
@@ -72,6 +75,7 @@ function generateImage(element, index) {
     fetch('./data.json')
         .then(response => response.json())
         .then(data => {
+            let companyName = data.companyName;
             let contactData = data.contact;
 
             let contactCode = `<div class="share-contact-detail-container">
@@ -102,7 +106,7 @@ function generateImage(element, index) {
 
             shareHtmlCode += `<div class="service-card-share" id="serviceCardShare">`;
 
-            shareHtmlCode += `<div class="service-head">SIDDIQ SUFI</div>`;
+            shareHtmlCode += `<div class="service-head">${companyName}</div>`;
 
             shareHtmlCode += parentElement.getElementsByClassName('service-image')[0].outerHTML;
             shareHtmlCode += parentElement.getElementsByClassName('service-head')[0].outerHTML;
