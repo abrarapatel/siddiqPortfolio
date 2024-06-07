@@ -58,21 +58,21 @@
   "contact": [
     {
       "icon": "fa fa-phone",
-      "head": "Call Me",
+      "head": "Call",
       "text": "+91 96645 30637",
       "value": "tel:+919664530637",
       "share": true
     },
     {
       "icon": "fa fa-envelope",
-      "head": "Email Me",
+      "head": "Email",
       "text": "ssandco@gmail.com",
       "value": "mailto:ssandco@gmail.com",
       "share": true
     },
     {
       "icon": "fab fa-whatsapp",
-      "head": "Chat With Me",
+      "head": "Chat",
       "text": "+91 96645 30637",
       "value": "https://wa.me/+919664530637",
       "share": false
