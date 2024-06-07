@@ -52,7 +52,7 @@
     },
     {
       "head": "Common Services",
-      "imageName": "cs.jpg"
+      "imageName": "images.jpg"
     }
   ],
   "contact": [
@@ -78,5 +78,5 @@
       "share": false
     }
   ],
-  "aboutText": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, fuga! Et perspiciatis similique minus illo? Quisquam hic cum, quaerat reiciendis mollitia distinctio laborum sapiente aspernatur, doloribus id alias perspiciatis placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam at eveniet, neque eius molestias est. Alias harum ratione voluptas autem. Nisi molestiae corrupti dignissimos obcaecati itaque facere velit explicabo maxime quam sed hic voluptas, numquam a, odio iure aliquid vel!"
+  "aboutText": "ABC is a renowned tax consulting firm that offers a comprehensive range of services including accounting, auditing, taxation, financial planning, and business advisory. With a strong presence in Surat, Gujarat, with expert team provides tailored solutions to individuals and businesses, helping them navigate the complex tax landscape and achieve their financial goals."
 }
