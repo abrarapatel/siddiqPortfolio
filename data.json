@@ -1,6 +1,6 @@
 {
-  "companyName": "SIDDIQ SUFI & CO.",
-  "landingText": "Hello! I'm <span>Siddiq Sufi</span>, and I'm passionate about delivering value through professional <a href='#services'>services</a>. Welcome to <div>{[companyName]}</div> your trusted tax cosultant partner. Our expert team provides personalized service and effective solution to optimize your tax position and achieve your financial goals. Learn more about our services and how we can can help you succeed.",
+  "companyName": "Mohammad Siddiq Sufi",
+  "landingText": "Hello! I'm <span>Siddiq Sufi</span>, and I'm passionate about delivering value through professional <a href='#services'>services</a>.",
   "services": [
     {
       "head": "Accounting & Book Keeping Services (Including Share Market) ",
@@ -43,10 +43,6 @@
       "imageName": "dsc2.jpg"
     },
     {
-      "head": "AD Code Registration",
-      "imageName": "adcode2.jpg"
-    },
-    {
       "head": "Import-Export Certificate",
       "imageName": "iec.jpg"
     },
@@ -78,5 +74,5 @@
       "share": false
     }
   ],
-  "aboutText": "Siddiq Sufi & Co.is a renowned tax consulting firm that offers a comprehensive range of services including accounting, auditing, taxation, financial planning, and business advisory. With a strong presence in Surat, Gujarat, with expert team provides tailored solutions to individuals and businesses, helping them navigate the complex tax landscape and achieve their financial goals."
+  "aboutText": "Mohammad Siddiq is frrelancer Tax Consultant who offers a comprehensive range of services including accounting, auditing, taxation, financial planning, and business advisory. With a strong presence in Surat, Gujarat, with expert team provides tailored solutions to individuals and businesses, helping them navigate the complex tax landscape and achieve their financial goals."
 }
